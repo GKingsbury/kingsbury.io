@@ -36,7 +36,7 @@ const techList: TechButton[] = [
   <transition name="fade" >
     <div v-if="show" class="relative pt-10 pb-8 bg-gray-100 shadow-xl ring-2 ring-offset-2 ring-gray-900/5 md:w-1/2 w-5/6 mx-auto rounded-xl px-10">
       <div class="mx-auto" >
-        <div class="sm:text-5xl text-4xl text-center mb-5"><span class="font-bold text-indigo-900">Kingsbury</span><span class="text-gray-300">.us</span> </div>
+        <div class="sm:text-5xl text-4xl text-center mb-5"><span class="font-bold text-indigo-900">Kingsbury</span><span class="text-gray-300">.io</span> </div>
         <hr/>
       </div>
       <div class="mx-auto flex flex-wrap my-10 w-5/6">
