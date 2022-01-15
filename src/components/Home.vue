@@ -2,8 +2,6 @@
 import { ref } from 'vue'
 import TechButton from './TechButton.vue'
 
-defineProps<{ msg: string }>()
-
 let show = ref(false)
 
 setTimeout(() => {
@@ -15,18 +13,31 @@ interface TechButton {
   description: string
 }
 
+import nodeImg from '/src/assets/images/tech_icons/nodejs.svg'
+import vueImg from '/src/assets/images/tech_icons/vue.svg'
+import angularImg from '/src/assets/images/tech_icons/angular.svg'
+import tailwingImg from '/src/assets/images/tech_icons/tailwindcss.svg'
+import dockerImg from '/src/assets/images/tech_icons/docker.png'
+import traefikImg from '/src/assets/images/tech_icons/traefik.png'
+import typescriptImg from '/src/assets/images/tech_icons/typescript.svg'
+import jsImg from '/src/assets/images/tech_icons/js.svg'
+import pythonImg from '/src/assets/images/tech_icons/python.svg'
+import mongoImg from '/src/assets/images/tech_icons/mongo.svg'
+import gitlabImg from '/src/assets/images/tech_icons/gitlab.svg'
+
+
 const techList: TechButton[] = [
-  { img: 'src/assets/images/tech_icons/nodejs.svg', description: 'Node.js' },
-  { img: 'src/assets/images/tech_icons/vue.svg', description: 'Vue (2 & 3)' },
-  { img: 'src/assets/images/tech_icons/angular.svg', description: 'Angular' },
-  { img: 'src/assets/images/tech_icons/tailwindcss.svg', description: 'Tailwind CSS' },
-  { img: 'src/assets/images/tech_icons/docker.png', description: 'Docker' },
-  { img: 'src/assets/images/tech_icons/traefik.png', description: 'Traefik' },
-  { img: 'src/assets/images/tech_icons/typescript.svg', description: 'TypeScript' },
-  { img: 'src/assets/images/tech_icons/js.svg', description: 'JavaScript' },
-  { img: 'src/assets/images/tech_icons/python.svg', description: 'Python' },
-  { img: 'src/assets/images/tech_icons/mongo.svg', description: 'MongoDB' },
-  { img: 'src/assets/images/tech_icons/gitlab.svg', description: 'GitLab' },
+  { img: nodeImg, description: 'Node.js' },
+  { img: vueImg, description: 'Vue (2 & 3)' },
+  { img: angularImg, description: 'Angular' },
+  { img: tailwingImg, description: 'Tailwind CSS' },
+  { img: dockerImg, description: 'Docker' },
+  { img: traefikImg, description: 'Traefik' },
+  { img: typescriptImg, description: 'TypeScript' },
+  { img: jsImg, description: 'JavaScript' },
+  { img: pythonImg, description: 'Python' },
+  { img: mongoImg, description: 'MongoDB' },
+  { img: gitlabImg, description: 'GitLab' },
 ]
 
 </script>
