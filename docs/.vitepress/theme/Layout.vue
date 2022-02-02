@@ -6,8 +6,5 @@ const { Layout } = DefaultTheme
 
 <template>
   <Layout>
-    <template #page-bottom>
-      <p class="text">MIT Licensed | Copyright © {{new Date().getFullYear()}} Grant Kingsbury</p>
-    </template>
   </Layout>
 </template>
