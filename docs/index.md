@@ -4,7 +4,7 @@ actionText: About Me →
 actionLink: /about/index
 features:
   - title: Simplicity
-    details: Why make software more complex than it needs to be? I find the best tools for the job to keep development time and maintence minial.
+    details: Why make software more complex than it needs to be? I find the best tools for the job to keep development time and maintence minimal.
   - title: Quality
     details: I take pride in my work. I believe in building and delivering only high quality software.
   - title: Utility
